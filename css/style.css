@@ -1,4 +1,89 @@
-/**
- * @file
- * Subtheme specific CSS.
- */
+body {
+    background-color: darkgray;
+}
+#page {
+    background-color: lightgray;
+}
+.site-footer{
+    background-color: darkgray;
+    width: 100%;
+}
+.site-footer h2{
+    color: black;
+}
+
+
+
+.navbar-brand {
+    border: 3px solid #6e7491;
+    /* margin-left: 40%; */
+    margin-left: 3em;
+    position: relative;
+    background: white;
+    padding: 1em;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+}
+.navbar-brand:hover {
+    color: #ff499e;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+
+.nav-link--user {
+    border: 3px solid #6e7491;
+    position: relative;
+    background: white;
+    padding: 1em;
+    color: gray;
+    margin-right: 1em;
+    box-shadow: 10px 10px rgba(0,0,0,.15);
+    transition: all .4s ease;
+}
+.nav-link--user-logout {
+    margin-right: 3em;
+    border: 3px solid #6e7491;
+    position: relative;
+    background: white;
+    padding: 1em;
+    color: gray;
+    box-shadow: 10px 10px rgba(0,0,0,.15);
+    transition: all .4s ease;
+}
+.nav-link--user:hover {
+    color: #ff499e;
+    box-shadow: 5px 5px rgba(0,0,0,.25);
+}
+.nav-link--user-logout:hover {
+    color: #ff499e;
+    box-shadow: 5px 5px rgba(0,0,0,.25);
+}
+
+
+
+
+
+.row.row-offcanvas.row-offcanvas-left.clearfix {
+    border-top-left-radius: 37px 140px;
+    border-top-right-radius: 23px 130px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 120px 24px;
+
+    display: block;
+    position: relative;
+    border: solid 3px #6e7491;
+    padding: 40px 60px;
+    max-width: 800px;
+    width: 70%;
+    margin: 3em auto 3em;
+    font-size: 17px;
+    line-height: 28px;
+    transform: rotate(-1deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    transition: all 0.13s ease-in;
+    background-color: white;
+}
+.row.row-offcanvas.row-offcanvas-left.clearfix:hover {
+    transform: translateY(-10px) rotate(1deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+}
